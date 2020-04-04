@@ -1,0 +1,48 @@
+.header {
+	height: 100vh;
+
+	background-color: $col-hdr-bg;
+	background-image: url(../img/bg/bg-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	text-align: center;
+
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+
+	&__title {
+		font-family: 'Merriweather', serif;
+		font-size: 56px;
+		line-height: 62px;
+
+		color: $col-txt-hdr-title;
+
+		margin-top: -50px;
+		margin-bottom: 27px;
+	}
+
+	&__text {
+		font-size: 28px;
+		line-height: 42px;
+
+		color: $col-txt-hdr-text;
+	}
+
+	&__arrow {
+		font-size: 48px;
+		line-height: 40px;
+
+		color: $col-txt-hdr-arrow;
+
+		position: absolute;
+
+		bottom: 50px;
+	}
+}
