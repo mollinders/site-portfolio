@@ -4,3 +4,23 @@ html, body {
 	line-height: 1.5;
 }
 
+img {
+	display: block;
+}
+
+.wrapper-main {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.col-4 {
+	width: 360px;
+}

@@ -1,0 +1,53 @@
+.portfolio {
+	background-color: $col-prt-bg;
+
+	padding-top: 74px;
+	padding-bottom: 79px;
+
+	&__title {
+		font-family: 'Merriweather', serif;
+		font-size: 46px;
+		line-height: 62px;
+
+		color: $col-prt-txt-title;
+
+		text-align: center;
+
+		margin-bottom: 64px;
+	}
+
+	&__item {
+		margin-bottom: 30px;
+
+		&-img {
+			margin-bottom: 15px;
+		}
+
+		&-title {
+			margin-bottom: 6px;
+
+			a {
+				font-size: 24px;
+				line-height: 36px;
+
+				color: $col-prt-txt-itm-title;
+
+				text-decoration: none;
+
+				border-bottom: 1px solid $col-prt-bg;
+
+				&:hover {
+					color: $col-prt-txt-itm-title-act;
+					border-bottom: 1px solid $col-prt-txt-itm-title-act;
+				}
+			}
+		}
+
+		&-text {
+			font-size: 16px;
+			line-height: 24px;
+
+			color: $col-prt-txt-itm-text;
+		}
+	}
+}
