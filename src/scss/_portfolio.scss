@@ -50,4 +50,28 @@
 			color: $col-prt-txt-itm-text;
 		}
 	}
+
+	&__singlepage {
+		background-color: $col-prtsp-bg;
+
+		text-align: center;
+
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.button {
+			color: $col-prt-txt-itm-title-act;
+			border-color: $col-prt-txt-itm-title-act;
+
+			&:hover {
+				color: $col-prtsp-bg;
+				background-color: $col-prt-txt-itm-title-act;
+			}
+		}
+	}
 }
