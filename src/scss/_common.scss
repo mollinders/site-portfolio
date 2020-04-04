@@ -4,6 +4,10 @@ html, body {
 	line-height: 1.5;
 }
 
+a {
+	transition: 0.2s ease-out;
+}
+
 img {
 	display: block;
 }
@@ -23,4 +27,25 @@ img {
 
 .col-4 {
 	width: 360px;
+}
+
+.button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1.6px;
+
+	display: inline-block;
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: white;
+
+	border: 2px solid white;
+	border-radius: 50px;
+
+	padding: 7px 23px;
+
+	margin-bottom: 0px;
 }

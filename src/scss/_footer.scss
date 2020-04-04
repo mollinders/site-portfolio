@@ -1,0 +1,58 @@
+.footer {
+	background-color: $col-ftr-bg;
+
+	padding-top: 74px;
+	padding-bottom: 203px;
+
+	&__title {
+		font-family: 'Merriweather', serif;
+		font-size: 28px;
+		line-height: 42px;
+
+		color: $col-ftr-txt-title;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 24px;
+
+		color: $col-ftr-txt-text;
+
+		&.dark {
+			color: $col-ftr-txt-text-dark;
+		}
+
+		&.modify-1 {
+			margin-top: 10px;
+			margin-bottom: 14px;
+		}
+	}
+
+	&__social {
+			a {
+			font-size: 32px;
+			line-height: 48px;
+
+			color: $col-ftr-txt-social;
+
+			display: inline-block;
+
+			margin-right: 30px;
+
+			&:hover {
+				color: $col-ftr-txt-social-act;
+			}
+		}
+	}
+
+	.button {
+		color: $col-prt-bg;
+		border-color: $col-prt-bg;
+		margin-bottom: 14px;
+
+		&:hover {
+			color: $col-ftr-bg;
+			background-color: $col-prt-bg;
+		}
+	}
+}
